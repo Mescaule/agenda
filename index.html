@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Agenda</title>
+    <title>Login</title>
 
     <!-- Link para os ícones utilizados -->
     <link
@@ -12,7 +12,7 @@
     />
 
     <!-- Link para css e fontes utilizadas -->
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="./assets/css/style_index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,95 +21,87 @@
     />
   </head>
   <body>
-
-    <!-- Spans para os detalhes visuais da folha -->
-    <section class="container">
-      <div class="detalhe-arame">
-        <span class="arame"></span>
-        <span class="arame"></span>
-        <span class="arame"></span>
-      </div>
-
-      <span class="capa"></span>
-
-      <span class="folha-detalhe"></span>
-      <!-- ------------------------------------ -->
-
-      <!-- Section principal para os inputs e botão --> 
-      <section class="main">
-        <h1 class="titulo">agenda</h1>
+    <section class="container-login-cadastro">
+      <section class="container-item">
+        <h1 class="titulo">LOGIN</h1>
         <form method="" class="form">
-          <label for="nome">
-            Nome:
-            <input class="form-input" placeholder="Digite seu nome" type="text" name="nome" id="nome" />
+          <label for="email">
+            E-mail:
+            <input
+              class="form-input"
+              placeholder="Insira seu e-mail"
+              type="email"
+              name="email"
+              id="email"
+            />
           </label>
-          <label for="numero">
-            Telefone:
-            <input class="form-input" placeholder="(DD) XXXXX-XXXX" type="text" name="contato" id="numero" />
+          <label for="senha">
+            Senha:
+            <input
+              class="form-input"
+              placeholder="Insira sua senha"
+              type="password"
+              name="senha"
+              id="senha"
+            />
           </label>
           <button class="botao-enviar" type="submit">Enviar</button>
         </form>
       </section>
-      <!-- --------------------------------------- -->
 
-      <!-- Section para a visualização dos telefones inseridos -->
-      <section class="lista-numeros">
-        <div class="numero-item">
-          <div class="info-item">
-            <h4>Nome: fulano</h4>
-            <h4>Telefone: 77777777</h4>
-          </div>
-          <div class="icon-item">
-            <i class="ri-edit-line icon" title="Editar"></i>
-            <i class="ri-delete-bin-5-line icon" title="Deletar"></i>
-          </div>
+      <section class="container-item">
+        <h1 class="titulo">CADASTRO</h1>
+        <form method="" class="form">
+          <label for="email">
+            E-mail:
+            <input
+              class="form-input"
+              placeholder="Insira seu e-mail"
+              type="email"
+              name="email"
+              id="email"
+            />
+          </label>
+          <label for="senha">
+            Senha:
+            <input
+              class="form-input"
+              placeholder="Insira sua senha"
+              type="password"
+              name="senha"
+              id="senha"
+            />
+          </label>
+          <button class="botao-enviar" type="submit">Enviar</button>
+        </form>
+      </section>
+    </section>
+
+    <section class="container-bemvindo">
+    
+        <img class="logo" src="./assets/img/shirto_logo.png" alt="" />
+      
+
+      <section class="container-bemvindo-desc">
+        <div>
+          <h1>Chegou a sua Agenda Shirto</h1>
+          <h5>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget
+            ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor
+            et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing
+          </h5>
         </div>
 
-        <div class="numero-item">
-          <div class="info-item">
-            <h4>Nome: fulano</h4>
-            <h4>Telefone: 77777777</h4>
-          </div>    
-          <div class="icon-item">
-            <i class="ri-edit-line icon" title="Editar"></i>
-            <i class="ri-delete-bin-5-line icon" title="Deletar"></i>
-          </div>
-        </div>
-
-        <div class="numero-item">
-          <div class="info-item">
-            <h4>Nome: fulano</h4>
-            <h4>Telefone: 77777777</h4>
-          </div>
-          <div class="icon-item">
-            <i class="ri-edit-line icon" title="Editar"></i>
-            <i class="ri-delete-bin-5-line icon" title="Deletar"></i>
-          </div>
-        </div>
-
-        <div class="numero-item">
-          <div class="info-item">
-            <h4>Nome: fulano</h4>
-            <h4>Telefone: 77777777</h4>
-          </div>
-          <div class="icon-item">
-            <i class="ri-edit-line icon" title="Editar"></i>
-            <i class="ri-delete-bin-5-line icon" title="Deletar"></i>
-          </div>
-        </div>
-
-        <div class="numero-item">
-          <div class="info-item">
-            <h4>Nome: fulano</h4>
-            <h4>Telefone: 77777777</h4>
-          </div>
-          <div class="icon-item">
-            <i class="ri-edit-line icon" title="Editar"></i>
-            <i class="ri-delete-bin-5-line icon" title="Deletar"></i>
-          </div>
+        <div>
+          <img
+            class="agenda-imagem"
+            src="./assets/img/phone-book.svg"
+            alt="agenda imagem"
+          />
         </div>
       </section>
-      <!-- ---------------------------------------------------- -->
-
+    </section>
   </body>
 </html>
