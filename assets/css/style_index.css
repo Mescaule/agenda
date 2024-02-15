@@ -73,21 +73,9 @@ label {
   transform: translateY(3px);
 }
 
-/* .container-bemvindo {
-  background: #e2e2e2;
-  height: 90vh;
-  border-radius: 20px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  place-content: center;
-
-} */
-
 .container-bemvindo {
   background: #e2e2e2;
-  height: 90vh;
-  border-radius: 20px;
+  height: 100vh;
   width: 100%;
   padding: 40px;
 }
@@ -97,7 +85,19 @@ label {
   align-items: center;
 }
 
-.agenda-imagem {
-  width: 250px;
+.logo{
+  width: 100px;
   height: auto;
+}
+
+.container-bemvindo-desc h1{
+  font-size: 40px;
+  font-weight: 800;
+  padding: 20px 0;
+}
+
+.container-bemvindo-desc h5{
+  font-size: 15px;
+  font-weight: 300;
+  padding: 15px 0;
 }

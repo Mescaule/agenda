@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
 
+    <script src="./assets/js/autorize.js" defer></script>
+
     <!-- Link para os ícones utilizados -->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
@@ -32,7 +34,7 @@
               placeholder="Insira seu e-mail"
               type="email"
               name="email"
-              id="email"
+              id=""
             />
           </label>
           <label for="senha">
@@ -51,15 +53,15 @@
 
       <section class="container-item">
         <h1 class="titulo">CADASTRO</h1>
-        <form method="" class="form">
+        <form class="form" id="form">
           <label for="email">
             E-mail:
             <input
               class="form-input"
               placeholder="Insira seu e-mail"
-              type="email"
-              name="email"
-              id="email"
+              type="text"
+              name="name"
+              id="name"
             />
           </label>
           <label for="senha">
@@ -67,20 +69,18 @@
             <input
               class="form-input"
               placeholder="Insira sua senha"
-              type="password"
-              name="senha"
-              id="senha"
+              type="email"
+              name="email"
+              id="email"
             />
           </label>
-          <button class="botao-enviar" type="submit">Enviar</button>
+          <button id="btn" class="botao-enviar" type="submit">Enviar</button>
         </form>
       </section>
     </section>
 
     <section class="container-bemvindo">
-    
-        <img class="logo" src="./assets/img/shirto_logo.png" alt="" />
-      
+      <img class="logo" src="./assets/img/shirto_logo.png" alt="" />
 
       <section class="container-bemvindo-desc">
         <div>
@@ -90,17 +90,17 @@
             ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa.
             Pellentesque habitant morbi tristique senectus et netus et malesuada
             fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor
-            et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing
+            et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+          </h5>
+          <h5>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget
+            ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor
+            et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
           </h5>
         </div>
-
-        <div>
-          <img
-            class="agenda-imagem"
-            src="./assets/img/phone-book.svg"
-            alt="agenda imagem"
-          />
-        </div>
+        
       </section>
     </section>
   </body>
